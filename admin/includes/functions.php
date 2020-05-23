@@ -301,7 +301,7 @@ function createTopic($post, $status){
   $stmt->close();
 }
 
-function createTeacher($post){
+/* function createTeacher($post){
   global $con;
   extract($post);
   $image_url = "_icon";
@@ -319,6 +319,43 @@ function createTeacher($post){
 
   $stmt->free_result();
   $stmt->close();
+}
+ */
+function createTeacher($post)
+{
+  global $con;
+  extract($post);
+  $image = $_FILES['image']['name'];
+  $target = "../images/teachers/";
+  $fileName = basename($image);
+  $targetFilePath = $target . $fileName;
+  $path_for_db = "./images/teachers/" . $fileName;
+  $creator = $_SESSION['username'];
+
+  $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
+  $allowTypes = array('jpg', 'png', 'jpeg', 'gif', 'pdf');
+  if (in_array($fileType, $allowTypes)) {
+
+    if (move_uploaded_file($_FILES['image']['tmp_name'], $targetFilePath)) {
+
+      $stmt = $con->prepare("INSERT INTO teachers (name, phone, email, age, image_url, created_by) VALUES(?,?,?,?,?,?)");
+      $stmt->bind_param("ssssss", $teacher_name, $teacher_phone, $teacher_email, $teacher_age, $path_for_db, $creator);
+      $stmt->execute();
+      $stmt->store_result();
+
+
+      if ($stmt->affected_rows > 0) {
+        header("location: addTeacher.php?success=1&message=Teacher added successfully");
+      } else {
+        header("location: addTeacher.php?success=0&message=$stmt->error");
+      }
+    } else {
+      echo "error";
+      //header("location: addTeacher.php?success=0&message=Failed to upload image");
+    }
+  } else {
+    header("location: addTeacher.php?success=0&message=File is not an image. Allowed types: 'jpg', 'png', 'jpeg', 'gif', 'pdf'");
+  }
 }
 
 function deleteTeacher($post){
