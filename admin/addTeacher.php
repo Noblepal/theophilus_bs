@@ -38,7 +38,7 @@ include("./includes/functions.php")
           } ?>
           <h3 class="mt-3">Add Teacher</h3>
 
-          <form class="" action="" method="post">
+          <form class="" action="" method="post" enctype="multipart/form-data">
             <div class="row">
               <div class="form-group col-md-6">
                 <label>Name of teacher</label>
@@ -64,7 +64,7 @@ include("./includes/functions.php")
             <div class="row">
               <div class="form-group col-md-6">
                 <label>Profile Picture</label>
-                <input type="file" name="image" class="form-control" required>
+                <input type="file" name="profile" class="form-control" required>
               </div>
             </div>
 
