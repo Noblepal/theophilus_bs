@@ -168,9 +168,9 @@ include('functions.php');
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2 d-flex">
 				<div class="col-md-6 align-items-stretch d-flex">
-					<div class="img img-video d-flex align-items-center" style="background-image: url(images/img22.jpg);">
+					<div class="img img-video d-flex align-items-center" style="background-image: url(video/thumb.png);">
 						<div class="video justify-content-center">
-							<a href="/video/intro_video.mp4" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+							<a href="video/intro_video.mp4" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
 								<span class="ion-ios-play"></span>
 							</a>
 						</div>
