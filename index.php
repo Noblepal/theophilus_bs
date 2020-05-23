@@ -1,4 +1,3 @@
-
 <?php
 
 include('functions.php');
@@ -7,40 +6,41 @@ include('functions.php');
 
 <!DOCTYPE html>
 <html lang="en">
-  <?php include('head.php'); ?>
-  <body>
-	  <?php include('navbar.php'); ?>
-    <!-- END nav -->
+<?php include('head.php'); ?>
 
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(images/img15.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-6 ftco-animate">
-            <h1 class="mb-4">Theophilus Bible Seminary</h1>
-            <p>An institution for aspiring bishops, apostles and archbishops.</p>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Enroll Now</a></p>
-          </div>
-        </div>
-        </div>
-      </div>
+<body>
+	<?php include('navbar.php'); ?>
+	<!-- END nav -->
 
-      <div class="slider-item" style="background-image:url(images/img31.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-6 ftco-animate">
-            <h1 class="mb-4">Where power is activated</h1>
-            <p>Where we prepare men and women of God for the manifestation of the glory of God.</p>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
+	<section class="home-slider owl-carousel">
+		<div class="slider-item" style="background-image:url(images/img15.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+					<div class="col-md-6 ftco-animate">
+						<h1 class="mb-4">Theophilus Bible Seminary</h1>
+						<p>An institution for aspiring bishops, apostles and archbishops.</p>
+						<p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Enroll Now</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- <section class="ftco-services ftco-no-pb">
+		<div class="slider-item" style="background-image:url(images/img31.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+					<div class="col-md-6 ftco-animate">
+						<h1 class="mb-4">Where power is activated</h1>
+						<p>Where we prepare men and women of God for the manifestation of the glory of God.</p>
+						<p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="ftco-services ftco-no-pb">
 			<div class="container-wrap">
 				<div class="row no-gutters">
           <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
@@ -91,105 +91,105 @@ include('functions.php');
 			</div>
 		</section> -->
 
-		<section class="ftco-section ftco-no-pt ftc-no-pb">
-			<div class="container-fluid">
-				<div class="row d-flex">
-					<div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
-						<div class="img" style="background-image: url(images/Daniel_Baraka.png); background-position: center center; background-repeat: no-repeat;" alt="Dr. Bishop Daniel Baraka"></div>
-					</div>
-					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-          	<h2 class="mb-4">What We Offer</h2>
-						<p>This institution is a place where we teach you purely in the word of God and we enhance on the spiritual gifts of all and groom you into the Divine purpose of God.</p>
-						<div class="row mt-5">
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
-									<div class="text pl-3">
-										<h3>Online Learning</h3>
-										<p>Our teaching is purely online for convenience to all aspiring students who desire to learn with us.</p>
-									</div>
+	<section class="ftco-section ftco-no-pt ftc-no-pb">
+		<div class="container-fluid">
+			<div class="row d-flex">
+				<div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
+					<div class="img" style="background-image: url(images/Daniel_Baraka.png); background-position: center center; background-repeat: no-repeat;" alt="Dr. Bishop Daniel Baraka"></div>
+				</div>
+				<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
+					<h2 class="mb-4">What We Offer</h2>
+					<p>This institution is a place where we teach you purely in the word of God and we enhance on the spiritual gifts of all and groom you into the Divine purpose of God.</p>
+					<div class="row mt-5">
+						<div class="col-lg-6">
+							<div class="services-2 d-flex">
+								<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+								<div class="text pl-3">
+									<h3>Online Learning</h3>
+									<p>Our teaching is purely online for convenience to all aspiring students who desire to learn with us.</p>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
-									<div class="text pl-3">
-										<h3>Flexible Classes</h3>
-										<p>You can access our online classes at any time, anywhere and on any device.</p>
-									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="services-2 d-flex">
+								<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
+								<div class="text pl-3">
+									<h3>Flexible Classes</h3>
+									<p>You can access our online classes at any time, anywhere and on any device.</p>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
-									<div class="text pl-3">
-										<h3>Certified Teachers</h3>
-										<p>Our knowledgeable teachers will instill the Bible culture to our students.</p>
-									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="services-2 d-flex">
+								<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
+								<div class="text pl-3">
+									<h3>Certified Teachers</h3>
+									<p>Our knowledgeable teachers will instill the Bible culture to our students.</p>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-education"></span></div>
-									<div class="text pl-3">
-										<h3>Sufficient Material</h3>
-										<p>Our vast collection of learning material will give you acccess to everything you need in this journey to know God.</p>
-									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="services-2 d-flex">
+								<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-education"></span></div>
+								<div class="text pl-3">
+									<h3>Sufficient Material</h3>
+									<p>Our vast collection of learning material will give you acccess to everything you need in this journey to know God.</p>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
-									<div class="text pl-3">
-										<h3>Creative Lessons</h3>
-										<p>Simple, creative and intuitive lessons will help you understand and grasp everything you will study in our institution.</p>
-									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="services-2 d-flex">
+								<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
+								<div class="text pl-3">
+									<h3>Creative Lessons</h3>
+									<p>Simple, creative and intuitive lessons will help you understand and grasp everything you will study in our institution.</p>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-books"></span></div>
-									<div class="text pl-3">
-										<h3>Certificate Awards</h3>
-										<p>At the end of every course, our students are awarded certificates for completing the course.</p>
-									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="services-2 d-flex">
+								<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-books"></span></div>
+								<div class="text pl-3">
+									<h3>Certificate Awards</h3>
+									<p>At the end of every course, our students are awarded certificates for completing the course.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
 
 
 
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/classroom.jpg);" data-stellar-background-ratio="0.7">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-2 d-flex">
-    			<div class="col-md-6 align-items-stretch d-flex">
-    				<div class="img img-video d-flex align-items-center" style="background-image: url(images/img22.jpg);">
-    					<div class="video justify-content-center">
-								<a href="" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-									<span class="ion-ios-play"></span>
-		  					</a>
-							</div>
-    				</div>
-    			</div>
-          <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
-            <h2 class="mb-4">Theophilus Bible Seminary</h2>
-            <p>A college whereby we prepare men and women of God for the manifestation of the glory of God, this institution is a place where we teach you purely in the word of God and we enhance on the spiritual gifts of all and groom you into the Divine purpose of God.</p>
-            <p>Theophilus Bible Seminary is offering Hebrew, Greek and English language Courses Every Wednesday at Ruaka Enrollment going on.</p>
-          </div>
-        </div>
-    		<!--<div class="row d-md-flex align-items-center justify-content-center">
+	<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/classroom.jpg);" data-stellar-background-ratio="0.7">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2 d-flex">
+				<div class="col-md-6 align-items-stretch d-flex">
+					<div class="img img-video d-flex align-items-center" style="background-image: url(images/img22.jpg);">
+						<div class="video justify-content-center">
+							<a href="/video/intro_video.mp4" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+								<span class="ion-ios-play"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
+					<h2 class="mb-4">Theophilus Bible Seminary</h2>
+					<p>A college whereby we prepare men and women of God for the manifestation of the glory of God, this institution is a place where we teach you purely in the word of God and we enhance on the spiritual gifts of all and groom you into the Divine purpose of God.</p>
+					<p>Theophilus Bible Seminary is offering Hebrew, Greek and English language Courses Every Wednesday at Ruaka Enrollment going on.</p>
+				</div>
+			</div>
+			<!--<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-12">
     				<div class="row d-md-flex align-items-center">
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="<?php echo "13";?>">0</strong>
+		                <strong class="number" data-number="<?php echo "13"; ?>">0</strong>
 		                <span>Certified Teachers</span>
 		              </div>
 		            </div>
@@ -198,7 +198,7 @@ include('functions.php');
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="<?php echo "1282";?>">0</strong>
+		                <strong class="number" data-number="<?php echo "1282"; ?>">0</strong>
 		                <span>Students</span>
 		              </div>
 		            </div>
@@ -207,7 +207,7 @@ include('functions.php');
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="<?php echo "22";?>">0</strong>
+		                <strong class="number" data-number="<?php echo "22"; ?>">0</strong>
 		                <span>Courses</span>
 		              </div>
 		            </div>
@@ -216,7 +216,7 @@ include('functions.php');
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="<?php echo "5";?>">0</strong>
+		                <strong class="number" data-number="<?php echo "5"; ?>">0</strong>
 		                <span>Awards Won</span>
 		              </div>
 		            </div>
@@ -224,45 +224,45 @@ include('functions.php');
 	          </div>
           </div>
         </div>-->
-    	</div>
-    </section>
+		</div>
+	</section>
 
 
-		<section class="ftco-section">
-			<div class="container-fluid px-4">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Our</span> Popular Courses</h2>
-            <p>Theophilus Bible Seminary offers the following courses.</p>
-            <p><a href="courses.php" class="btn btn-primary">View All</a></p>
-          </div>
-        </div>
-				<div class="row">
-          <?php $courses = getTopCourses();
-
-          foreach($courses as $course){
-            ?>
-            <div class="col-md-3 course ftco-animate">
-  						<div class="img" style="background-image: url('https://via.placeholder.com/300x300');"></div>
-  						<div class="text pt-4">
-  							<p class="meta d-flex">
-  								<span><i class="icon-user mr-2"></i><?php echo $course['teacher'];?></span>
-  								<span><i class="icon-calendar mr-2"></i><?php echo $course['duration'];?> Weeks</span>
-  							</p>
-  							<h3><a href="#"><?php echo $course['title'];?></a></h3>
-  							<p><?php echo $course['course_description'];?></p>
-  							<p><a href="apply-course.php?course_id=<?php echo $course['id'];?>" class="btn btn-primary">Apply now</a></p>
-  						</div>
-  					</div>
-            <?php
-          }
-
-          ?>
+	<section class="ftco-section">
+		<div class="container-fluid px-4">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+					<h2 class="mb-4"><span>Our</span> Popular Courses</h2>
+					<p>Theophilus Bible Seminary offers the following courses.</p>
+					<p><a href="courses.php" class="btn btn-primary">View All</a></p>
 				</div>
 			</div>
-		</section>
+			<div class="row">
+				<?php $courses = getTopCourses();
 
-		<!-- <section class="ftco-section bg-light">
+				foreach ($courses as $course) {
+				?>
+					<div class="col-md-3 course ftco-animate">
+						<div class="img" style="background-image: url('https://via.placeholder.com/300x300');"></div>
+						<div class="text pt-4">
+							<p class="meta d-flex">
+								<span><i class="icon-user mr-2"></i><?php echo $course['teacher']; ?></span>
+								<span><i class="icon-calendar mr-2"></i><?php echo $course['duration']; ?> Weeks</span>
+							</p>
+							<h3><a href="#"><?php echo $course['title']; ?></a></h3>
+							<p><?php echo $course['course_description']; ?></p>
+							<p><a href="apply-course.php?course_id=<?php echo $course['id']; ?>" class="btn btn-primary">Apply now</a></p>
+						</div>
+					</div>
+				<?php
+				}
+
+				?>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="ftco-section bg-light">
 			<div class="container-fluid px-4">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -612,12 +612,15 @@ include('functions.php');
     </section> -->
 
 
-    <?php include('footer.php'); ?>
+	<?php include('footer.php'); ?>
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
 
-  <?php include('scripts.php'); ?>
+	<?php include('scripts.php'); ?>
 
-  </body>
+</body>
+
 </html>
