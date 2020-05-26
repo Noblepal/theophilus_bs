@@ -28,7 +28,7 @@
                 </div>
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseStudents" aria-expanded="false" aria-controls="collapsePages"
                     ><div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
-                    Students
+                    Students &nbsp; <span class="badge badge-pill badge-danger">New</span>
                     <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div></a>
                 <div class="collapse" id="collapseStudents" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
